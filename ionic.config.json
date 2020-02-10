@@ -1,0 +1,8 @@
+{
+  "name": "MineradoSideMenu",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

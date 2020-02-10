@@ -1,0 +1,129 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color='danger'></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Pedras Preciosas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Diamantes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content >
+      <ion-slides #sliders (ionSlidesDidLoad)='slidesDidLoad(sliders)' pager='true' [options]='slideOpts'>
+        <ion-slide>
+          <img src="/assets/preciosos/diamente.jpg" alt="Diamantes">
+        </ion-slide>
+
+        <ion-slide>
+          <img src="/assets/preciosos/diamante2.jpg" alt="Diamantes">
+        </ion-slide>
+      </ion-slides>
+
+      <p class="ion-text-justify">
+        <br>
+        O diamante é o mais duro material de ocorrência natural que se conhece, com uma dureza de 10 (valor máximo da escala de Mohs). 
+        Isto significa que não pode ser riscado por nenhum outro mineral ou substância, exceto o próprio diamante, funcionando como um importante material abrasivo.
+        <br><br>
+        A densidade é de 3,48. O brilho é adamantino, derivado do elevadíssimo índice de refracção (2,42). Recorde-se que todos os minerais com índice de refracção maior ou igual a 1,9 possuem este brilho. 
+        No entanto, os cristais não cortados podem apresentar um brilho gorduroso. Pode apresentar fluorescência, ou seja, a incidência dos raios ultravioleta produzem luminescência com cores variadas originando colorações azul, rosa, amarela ou verde.
+      </p>
+    </ion-card-content >
+
+    <ion-item href="https://api.whatsapp.com/send?1=pt_BR&phone=5511966435275" color="success" class="activated">
+      <ion-icon name="logo-whatsapp" slot="start"></ion-icon>
+      <ion-label>Whatsapp</ion-label>
+    </ion-item>
+
+    <ion-item color="secondary" (click)="openModal()">
+      <ion-icon ios="ios-contacts" md="md-contacts" slot="start"></ion-icon>
+      <ion-label>Contato</ion-label>
+    </ion-item>
+
+  </ion-card>
+  
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Esmeraldas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-slides pager='true' [options]='slideOpts'>
+        <ion-slide>
+          <img src="/assets/preciosos/esmeralda-1.jpg" alt="Esmeraldas">
+        </ion-slide>
+
+        <ion-slide>
+          <img src="/assets/preciosos/esmeralda-2.jpg" alt="Esmeraldas">
+        </ion-slide>
+
+        <ion-slide>
+          <img src="/assets/preciosos/esmeralda-3.jpg" alt="Esmeraldas">
+        </ion-slide>
+      </ion-slides>
+
+      <p class="ion-text-justify">
+        <br>
+        A esmeralda é a variedade de cor verde do Berilo, mineral que apresenta-se comumente em cristais prismáticos com bases hexagonais, raramente biterminados, com vários centímetros de comprimento, usualmente estriados e corroídos, com fraturas e fissuras, muitas delas preenchidas por impurezas.
+      <br><br>
+        As esmeraldas são utilizadas como gemas, ou seja, em joias, em adornos e objetos de decoração.
+      <br><br>
+        Medida aproximada das pedras: de 4 cm à 8 cm.
+      </p>
+    </ion-card-content>
+
+    <ion-item href="https://api.whatsapp.com/send?1=pt_BR&phone=5511966435275" color="success" class="activated">
+      <ion-icon name="logo-whatsapp" slot="start"></ion-icon>
+      <ion-label>Whatsapp</ion-label>
+    </ion-item>
+
+    <ion-item color="secondary" (click)="openModal()">
+      <ion-icon ios="ios-contacts" md="md-contacts" slot="start"></ion-icon>
+      <ion-label>Contato</ion-label>
+    </ion-item>
+  
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Alexandrita</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-slides pager='true' [options]='slideOpts'>
+        <ion-slide>
+          <img src="/assets/preciosos/alexandrita.jpg" alt="Alexandrita">
+        </ion-slide>
+
+        <ion-slide>
+          <img src="/assets/preciosos/alexandrita01.jpg" alt="Alexandrita">
+        </ion-slide>
+      </ion-slides>
+
+      <p class="ion-text-justify">
+        <br>
+        Alexandrita é uma variedade do mineral crisoberilo e uma pedra preciosa muito apreciada e de grande valor.
+        <br><br>
+        Muda sua cor de acordo com a luz:
+        <br>À luz do dia, Verde.
+        <br>À luz artificial, Vermelho.
+      </p>
+    </ion-card-content>
+
+    <ion-item href="https://api.whatsapp.com/send?1=pt_BR&phone=5511966435275" color="success" class="activated">
+      <ion-icon name="logo-whatsapp" slot="start"></ion-icon>
+      <ion-label>Whatsapp</ion-label>
+    </ion-item>
+
+    <ion-item color="secondary" (click)="openModal()">
+      <ion-icon ios="ios-contacts" md="md-contacts" slot="start"></ion-icon>
+      <ion-label>Contato</ion-label>
+    </ion-item>
+
+  </ion-card>
+</ion-content>

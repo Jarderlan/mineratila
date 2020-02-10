@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color='danger'></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides #sliders (ionSlidesDidLoad)='slidesDidLoad(sliders)' pager='true' [options]='slideOpts'>
+    <ion-slide>
+      <img src="/assets/slide11.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/slide22.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/slide33.png">
+    </ion-slide>
+  </ion-slides>
+  <ion-card class="welcome-card">
+    <img src="/assets/LogoNome.png" alt=""/>
+    <ion-card-header>
+      <ion-card-title>Sobre Nós</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+          A Mineradora Atalaia do Brasil é uma empresa do Grupo Monawanny, atuante no mercado desde o ano 1993.
+
+          O grupo opera as suas atividades a partir do Nordeste brasileiro, atuando no mercado interno e externo.
+
+          Primamos pela qualidade, confiabilidade e respeito ambiental.
+
+          A Mineradora Atalaia do Brasil conta com diversos tipos de minérios em quantidade, tanto para o mercado interno quanto externo.
+
+          Possuímos hoje unidades nas cidades de Pindabaçu, no estado da Bahia, Pau dos Ferros, no Rio Grande do Norte e Ocara, Quixadá, Paramoti e Caucaia no estado do Ceará.
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/Mineradora Atalaia.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>io.ionic.mineradoraatalaia</string>
+		<key>CFBundleShortVersionString</key>
+		<string>0.0.1</string>
+		<key>CFBundleVersion</key>
+		<string>0.0.1</string>
+		<key>SigningIdentity</key>
+		<string>Apple Development: jarderlan@gmail.com (C3WHX528R2)</string>
+		<key>Team</key>
+		<string>Q3MSCERKX5</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2020-01-24T21:05:19Z</date>
+	<key>Name</key>
+	<string>Mineradora Atalaia</string>
+	<key>SchemeName</key>
+	<string>Mineradora Atalaia</string>
+</dict>
+</plist>
